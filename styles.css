@@ -1,0 +1,59 @@
+body {
+    font-family: Arial;
+    background: #f3f3f3;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 30px;
+    color: #4a4a4a;
+}
+
+.container {
+    width: 60%;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+input {
+    padding: 8px;
+    margin: 5px;
+}
+
+button {
+    padding: 10px 15px;
+    margin: 10px;
+    background: #4279f5;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+th, td {
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+}
+
+.calculate-btn {
+    background: #28a745;
+    font-size: 18px;
+}
+
+.remove-btn {
+    background: #d9534f;
+    padding: 5px 10px;
+}
