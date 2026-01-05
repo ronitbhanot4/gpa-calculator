@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>GradeGenius – GPA Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1>GradeGenius</h1>
+    <h2>Your Simple GPA Calculator</h2>
+
+    <div class="container">
+
+        <div class="input-section">
+            <input id="courseName" placeholder="Course Name">
+            <input id="courseGrade" placeholder="Grade (%)" type="number">
+            <input id="courseWeight" placeholder="Credit Weight" type="number">
+            <button onclick="addCourse()">Add Course</button>
+        </div>
+
+        <table id="courseTable">
+            <tr>
+                <th>Course</th>
+                <th>Grade (%)</th>
+                <th>Weight</th>
+                <th>Remove</th>
+            </tr>
+        </table>
+
+        <button class="calculate-btn" onclick="calculateGPA()">Calculate GPA</button>
+
+        <h2 id="gpaOutput"></h2>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
