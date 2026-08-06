@@ -2,9 +2,16 @@
 
 GradeGenius is a responsive, browser-based GPA calculator that supports weighted GPA calculations on both 4.0 and 12.0 grading scales.
 
+
 ## Live Demo
 
-Add your deployed website link here once available.
+[Open GradeGenius](https://gradegenius-gpa-calculator.vercel.app/)
+
+
+
+## Preview
+
+![GradeGenius Preview](assets/gradegenius-preview.png)
 
 ## Features
 
